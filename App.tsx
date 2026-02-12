@@ -314,7 +314,7 @@ const App: React.FC = () => {
       {step === 'SUCCESS' && (
         <div className="glass p-16 rounded-[5rem] shadow-[0_0_150px_rgba(255,105,180,0.6)] w-full max-w-3xl text-center slide-up relative shimmer">
           <Confetti />
-          <div className="absolute -top-12 -left-12 bg-rose-600 text-white px-10 py-6 rounded-[2rem] rotate-[-15deg] font-black shadow-[0_20px_50px_rgba(244,63,94,0.4)] text-3xl border-4 border-white animate-bounce flex items-center gap-3">
+          <div className="absolute -top-12 -left-12 bg-rose-600 text-white px-10 py-6 rounded-[2rem] rotate-[-15deg] z-[200] font-black shadow-[0_20px_50px_rgba(244,63,94,0.4)] text-3xl border-4 border-white animate-bounce flex items-center gap-3">
             VICTORY! <Zap size={32} />
           </div>
           <div className="mb-12 slide-up">
