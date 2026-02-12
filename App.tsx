@@ -196,7 +196,7 @@ const App: React.FC = () => {
               <input
                 type="text"
                 placeholder={t.inputPlaceholder}
-                className="w-full px-10 py-5 rounded-full border-4 border-pink-100 focus:border-rose-400 focus:outline-none text-center text-2xl transition-all glass hover:bg-white/50"
+                className="w-full px-10 py-5 rounded-full border-4 border-pink-100 focus:border-rose-400 focus:outline-none text-center text-2xl transition-all glass hover:bg-white/50 relative z-[200]"
                 value={targetName}
                 onChange={(e) => setTargetName(e.target.value)}
                 required
