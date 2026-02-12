@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/valentine-s-love-letter-prototype-2/',
+      base: '/Vibe_Coded_valentines-love-letter-prototype-2/',
       server: {
         port: 3000,
         host: '0.0.0.0',
