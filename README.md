@@ -112,3 +112,8 @@ This project transforms a simple question —
 > **“Will you be my Valentine?”**  
 
 into an unforgettable, AI-enhanced romantic moment. 💘
+
+
+**How to start the app**
+ - npm install
+ - npm run dev
